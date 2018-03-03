@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{46E98F31-5A73-49BD-B063-6D0C0EFB9A40}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Economic Crisis modding tools.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ENG\Economic Crisis modding tools_ENG.bdsproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RUS\Economic Crisis modding tools_RUS.bdsproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Economic Crisis modding tools">
+        <MSBuild Projects="Economic Crisis modding tools.cbproj"/>
+    </Target>
+    <Target Name="Economic Crisis modding tools:Clean">
+        <MSBuild Projects="Economic Crisis modding tools.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Economic Crisis modding tools:Make">
+        <MSBuild Projects="Economic Crisis modding tools.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Economic Crisis modding tools_ENG">
+        <MSBuild Projects="ENG\Economic Crisis modding tools_ENG.bdsproj"/>
+    </Target>
+    <Target Name="Economic Crisis modding tools_ENG:Clean">
+        <MSBuild Projects="ENG\Economic Crisis modding tools_ENG.bdsproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Economic Crisis modding tools_ENG:Make">
+        <MSBuild Projects="ENG\Economic Crisis modding tools_ENG.bdsproj" Targets="Make"/>
+    </Target>
+    <Target Name="Economic Crisis modding tools_RUS">
+        <MSBuild Projects="RUS\Economic Crisis modding tools_RUS.bdsproj"/>
+    </Target>
+    <Target Name="Economic Crisis modding tools_RUS:Clean">
+        <MSBuild Projects="RUS\Economic Crisis modding tools_RUS.bdsproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Economic Crisis modding tools_RUS:Make">
+        <MSBuild Projects="RUS\Economic Crisis modding tools_RUS.bdsproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Economic Crisis modding tools;Economic Crisis modding tools_ENG;Economic Crisis modding tools_RUS"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Economic Crisis modding tools:Clean;Economic Crisis modding tools_ENG:Clean;Economic Crisis modding tools_RUS:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Economic Crisis modding tools:Make;Economic Crisis modding tools_ENG:Make;Economic Crisis modding tools_RUS:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

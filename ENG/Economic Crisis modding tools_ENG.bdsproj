@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">W32ResourceDLL.Personality</Option>
+			<Option Name="ProjectType">ResourceDLL</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{9B46263B-ECC5-4C57-8D72-49EB5FEE280F}</Option>
+		</Option>
+	</PersonalityInfo>
+	<W32ResourceDLL.Personality>
+		<Source>
+			<Source Name="MainSource">Economic Crisis modding tools.dpr</Source>
+		</Source>
+		<Options>
+			<Options Name="BaseLang">1049</Options>
+			<Options Name="TargetName">..\.\Win32\Debug\Economic Crisis modding tools.ENG</Options>
+			<Options Name="BRCC_IncludePath">$(BDSINCLUDE)\windows\vcl</Options>
+			<Options Name="Company"></Options>
+			<Options Name="Configuration"></Options>
+			<Options Name="Copyright"></Options>
+			<Options Name="Description"></Options>
+			<Options Name="Trademark"></Options>
+			<Options Name="Product"></Options>
+			<Options Name="ProductVersion"></Options>
+			<Options Name="Title"></Options>
+			<Options Name="FileVersion"></Options>
+			<Options Name="Evidence"></Options>
+			<Options Name="KeyFile"></Options>
+			<Options Name="KeyName"></Options>
+		</Options>  <FileList>
+      <File FileName="about.dfm" ContainerId="W32Form" ModuleName="about.dfm"/>
+      <File FileName="CHILDWIN.dfm" ContainerId="W32Form" ModuleName="CHILDWIN.dfm"/>
+      <File FileName="CountryEditor.dfm" ContainerId="W32Form" ModuleName="CountryEditor.dfm"/>
+      <File FileName="EquipmentEditor.dfm" ContainerId="W32Form" ModuleName="EquipmentEditor.dfm"/>
+      <File FileName="MAIN.dfm" ContainerId="W32Form" ModuleName="MAIN.dfm"/>
+      <File FileName="OptionsForm.dfm" ContainerId="W32Form" ModuleName="OptionsForm.dfm"/>
+      <File FileName="UnitEditor.dfm" ContainerId="W32Form" ModuleName="UnitEditor.dfm"/>
+      <File FileName="Win32\Debug\Economic Crisis modding tools_DRC.rc" ContainerId="W32RC" ModuleName="Economic Crisis modding tools_DRC.rc"/>
+    </FileList>
+  </W32ResourceDLL.Personality>
+</BorlandProject>
