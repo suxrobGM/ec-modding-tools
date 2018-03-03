@@ -1,9 +1,9 @@
-object SettingsForm: TSettingsForm
+object OptionsForm: TOptionsForm
   Left = 0
   Top = 0
   Caption = 'Settings'
-  ClientHeight = 185
-  ClientWidth = 477
+  ClientHeight = 201
+  ClientWidth = 457
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,83 +13,77 @@ object SettingsForm: TSettingsForm
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object Panel1: TPanel
-    Left = 8
-    Top = 8
-    Width = 461
-    Height = 169
-    BorderStyle = bsSingle
+  object Panel: TPanel
+    Left = 0
+    Top = 0
+    Width = 457
+    Height = 201
+    Align = alClient
     TabOrder = 0
+    ExplicitLeft = 240
+    ExplicitTop = 112
+    ExplicitWidth = 185
+    ExplicitHeight = 41
     object DirMod_L: TLabel
-      Left = 14
-      Top = 65
-      Width = 129
-      Height = 14
-      Caption = 'Directory of the mod'
+      Left = 8
+      Top = 68
+      Width = 120
+      Height = 13
+      Caption = 'Directory of the mod:'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
-      Font.Height = -12
+      Font.Height = -11
       Font.Name = 'Tahoma'
       Font.Style = [fsBold]
       ParentFont = False
     end
     object ChooseLang_L: TLabel
-      Left = 14
-      Top = 3
-      Width = 113
-      Height = 14
+      Left = 8
+      Top = 8
+      Width = 102
+      Height = 13
       Caption = 'Choose Language:'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = [fsBold]
-      ParentFont = False
-    end
-    object SetDirButton: TButton
-      Left = 81
-      Top = 112
-      Width = 75
-      Height = 25
-      Caption = 'Set Directory'
-      TabOrder = 0
-      OnClick = SetDirButtonClick
-    end
-    object SetDirEdit: TEdit
-      Left = 14
-      Top = 85
-      Width = 225
-      Height = 21
-      TabOrder = 1
-    end
-    object DirectoryListBox1: TDirectoryListBox
-      Left = 256
-      Top = 1
-      Width = 200
-      Height = 163
-      Align = alRight
-      AutoComplete = False
-      DoubleBuffered = False
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -11
       Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentDoubleBuffered = False
+      Font.Style = [fsBold]
       ParentFont = False
+    end
+    object SetDirEdit: TEdit
+      Left = 8
+      Top = 83
+      Width = 145
+      Height = 21
+      TabOrder = 0
+    end
+    object SetDirButton: TButton
+      Left = 8
+      Top = 110
+      Width = 75
+      Height = 25
+      Caption = 'Set Directory'
+      TabOrder = 1
+      OnClick = SetDirButtonClick
+    end
+    object DirectoryListBox1: TDirectoryListBox
+      Left = 208
+      Top = 8
+      Width = 243
+      Height = 185
       TabOrder = 2
     end
     object ChangeLanguage_CB: TComboBox
-      Left = 14
-      Top = 22
+      Left = 8
+      Top = 24
       Width = 145
       Height = 21
       Style = csDropDownList
       TabOrder = 3
       OnChange = ChangeLanguage_CBChange
       Items.Strings = (
-        #1056#1091#1089#1089#1082#1080#1081
-        'English')
+        'English'
+        'Russian')
     end
   end
 end

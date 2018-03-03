@@ -37,6 +37,7 @@
       <File FileName="OptionsForm.dfm" ContainerId="W32Form" ModuleName="OptionsForm.dfm"/>
       <File FileName="UnitEditor.dfm" ContainerId="W32Form" ModuleName="UnitEditor.dfm"/>
       <File FileName="Win32\Debug\Economic Crisis modding tools_DRC.rc" ContainerId="W32RC" ModuleName="Economic Crisis modding tools_DRC.rc"/>
+      <File FileName="Option.dfm" ContainerId="W32Form" ModuleName="Option.dfm"/>
     </FileList>
   </W32ResourceDLL.Personality>
 </BorlandProject>

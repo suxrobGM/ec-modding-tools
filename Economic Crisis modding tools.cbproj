@@ -194,10 +194,10 @@
         <FormResources Include="MAIN.dfm"/>
         <FormResources Include="EquipmentEditor.dfm"/>
         <FormResources Include="UnitEditor.dfm"/>
+        <FormResources Include="Option.dfm"/>
         <FormResources Include="CHILDWIN.dfm"/>
         <FormResources Include="about.dfm"/>
         <FormResources Include="CountryEditor.dfm"/>
-        <FormResources Include="Option.dfm"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -264,14 +264,15 @@
                     <Resource_DLL_Projects Name="Item1">Русский (Россия)*$00000419*RUS*RUS</Resource_DLL_Projects>
                 </Resource_DLL_Projects>
                 <RDP_Source_Files>
-                    <RDP_Source_Files Name="Item0">MAIN.dfm</RDP_Source_Files>
-                    <RDP_Source_Files Name="Item1">EquipmentEditor.dfm</RDP_Source_Files>
-                    <RDP_Source_Files Name="Item2">UnitEditor.dfm</RDP_Source_Files>
-                    <RDP_Source_Files Name="Item3">OptionsForm.dfm</RDP_Source_Files>
-                    <RDP_Source_Files Name="Item4">CHILDWIN.dfm</RDP_Source_Files>
-                    <RDP_Source_Files Name="Item5">about.dfm</RDP_Source_Files>
-                    <RDP_Source_Files Name="Item6">CountryEditor.dfm</RDP_Source_Files>
-                    <RDP_Source_Files Name="Item7">Win32\Debug\Economic Crisis modding tools.drc</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item0">OptionsForm.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item1">MAIN.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item2">EquipmentEditor.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item3">UnitEditor.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item4">Option.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item5">CHILDWIN.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item6">about.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item7">CountryEditor.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item8">Win32\Debug\Economic Crisis modding tools.drc</RDP_Source_Files>
                 </RDP_Source_Files>
             </CPlusPlusBuilder.Personality>
             <Platforms>

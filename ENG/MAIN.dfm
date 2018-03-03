@@ -2,8 +2,8 @@ object MainForm: TMainForm
   Left = 194
   Top = 111
   Caption = 'Hearts of Iron IV: Economic Crisis modding tools'
-  ClientHeight = 242
-  ClientWidth = 421
+  ClientHeight = 164
+  ClientWidth = 491
   Color = clAppWorkSpace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clBlack
@@ -19,21 +19,21 @@ object MainForm: TMainForm
   TextHeight = 13
   object StatusBar: TStatusBar
     Left = 0
-    Top = 223
-    Width = 421
+    Top = 145
+    Width = 491
     Height = 19
     AutoHint = True
     Panels = <>
     SimplePanel = True
   end
-  object ToolBar2: TToolBar
+  object MainToolBar: TToolBar
     Left = 0
     Top = 0
-    Width = 421
+    Width = 491
     Height = 30
     BorderWidth = 1
     Color = clBtnFace
-    Images = ImageList1
+    Images = StdIconList
     Indent = 5
     ParentColor = False
     ParentShowHint = False
@@ -103,7 +103,7 @@ object MainForm: TMainForm
     end
   end
   object MainMenu1: TMainMenu
-    Images = ImageList1
+    Images = StdIconList
     Left = 40
     Top = 200
     object File1: TMenuItem
@@ -199,7 +199,7 @@ object MainForm: TMainForm
     Top = 200
   end
   object ActionList1: TActionList
-    Images = ImageList1
+    Images = StdIconList
     Left = 72
     Top = 200
     object FileNew1: TAction
@@ -299,11 +299,11 @@ object MainForm: TMainForm
       OnExecute = HelpAbout1Execute
     end
   end
-  object ImageList1: TImageList
+  object StdIconList: TImageList
     Left = 104
     Top = 200
     Bitmap = {
-      494C010112001400480010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010112001400640010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000005000000001002000000000000050
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000

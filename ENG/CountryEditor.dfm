@@ -14,7 +14,7 @@ object CountryEditorForm: TCountryEditorForm
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  Menu = MainMenu1
+  Menu = MainMenu
   OldCreateOrder = False
   Position = poDesigned
   OnActivate = FormActivate
@@ -24,14 +24,14 @@ object CountryEditorForm: TCountryEditorForm
     Left = 0
     Top = 0
     Width = 850
-    Height = 92
+    Height = 137
     Align = alTop
     BevelKind = bkTile
     BevelOuter = bvLowered
     TabOrder = 0
-    object CountryFlagImage: TImage
-      Left = 7
-      Top = 16
+    object BigFlagImg: TImage
+      Left = 6
+      Top = 53
       Width = 91
       Height = 60
       Align = alCustom
@@ -99,10 +99,11 @@ object CountryEditorForm: TCountryEditorForm
         BA2239333393FB497FD4A1F36F7A4DA4B5E37D7D7DDA164C7293B1D9B3679FA7
         7D9AE2797F21DFC1C1416D93B1F8367A1F26B6DBE8C5378AFC30D1368AFC0F3B
         43F2823F41D4A50000000049454E44AE426082}
+      OnDblClick = BigFlagImgDblClick
     end
     object ScenarioLabel: TLabel
-      Left = 389
-      Top = 3
+      Left = 467
+      Top = 37
       Width = 96
       Height = 13
       Align = alCustom
@@ -115,9 +116,108 @@ object CountryEditorForm: TCountryEditorForm
       Font.Style = [fsBold]
       ParentFont = False
     end
+    object MediumFlagImg: TImage
+      Left = 100
+      Top = 76
+      Width = 49
+      Height = 36
+      Align = alCustom
+      Anchors = [akLeft, akTop, akRight]
+      Picture.Data = {
+        0954506E67496D61676589504E470D0A1A0A0000000D49484452000000310000
+        002408060000002087D234000000017352474200AECE1CE90000000467414D41
+        0000B18F0BFC6105000000097048597300000EC300000EC301C76FA864000000
+        1974455874536F667477617265007061696E742E6E657420342E302E31364469
+        AFF5000005C94944415478DADD99FB6F145514C7CF96160451A3121F3F4082BF
+        60628C4AE44FE00F302624201AA395D2276BA9DA0760BBED762FDB2D45684A70
+        5968BBB40B5B4A2B7D4059B5A5D622A13C965A6049415C6D3A85854211B1DB79
+        78CECCEC6E2F7448FC692AB3F9E6CEBDF7CC9DFBD97BCEEC9DB31600B0A0E6A0
+        52507351C97A3D0966DF21A32494888AA2A6A86ED1273D1FF52CEA05D4337A3D
+        D9EC19CF70D0E41FA0EEA16EA326A86ED1274C937F15B514F5126A21682B23E9
+        F4661FE415E41DF4CDFF85BA81FA0D354A3004F11C6A09EAF5E8DF21FF3F0F6E
+        C1BD7B7741F332051459015991415114B52E49DAB9224B6ABB4C888A0412B6C9
+        D846F6D42F89DACACB742E495A9B5ECA7811D94934862C6BD7E1F054AA3672CC
+        16D4EF50C4F3244B1224A7A440E4E64DE83F39089EFADE55D8791915A699BE88
+        5A867AE7FE9D33D51782A7A066F77EB0589261DE5373D4AF411B0C4B9A972CA9
+        E7927A53882F54EC86D4AEA826093B325427A9DA44F512EDD0394445BF9EC695
+        B53145514AF88F3ED6A245CFC3B2654B409C92E148DB4F703114C9C28E73A890
+        45779F3751EFDE1E3BC1367C5E00DEC6FE00D6C7507FA0EE9AED4BBAB72C46BD
+        9C9FF7DE4A1D221FEB03A841827805F5166AC52DA1A73475FD0668690DEED77D
+        2E848A984D80C722D0BC65A96757C65A67A51F42C391CD583F8D0A4E87581E19
+        ED2E4FFDCC0AADED4107D6878812B42032FB8879CB1BBEFABC82625B2D411462
+        FDECC3106FDF18F981AD4BCB25085AAAF3647022502560A8AA01A805B51E8C92
+        1EF05C3B052BD98AFA39D9897AA027829CAE15252D60297EA6D4C0D6C69424ED
+        A131857D92A880A3E2304C9F63635D1ECBDFEC8170783C3E470E620C21D2D268
+        2506E3063D816D825900742D73B570105E4F2E2B2AD9670C2184036C7D462E07
+        F163974B300B40C4D2B5BD9583A8DB63659B6D758F8338CE52D337427B470222
+        D0E914CC02A071B6ED6CE7206ADD39ACA8D80B2323061023D78FB1B4CC5C84B8
+        183738DEE110CC02A0B69D35473988BDBB3371251A8D21FEBCD6C9D667E77110
+        C7DAEC825900F40359BD8B8770D764B062BBCF18227CB59DA5677D091D471310
+        9DAD65825900B475D9E5EEE2207657A7335B59038C08133343FC3EDCC632B2BF
+        E220DA5B6C825900A21C05B7A7FBBF415CBF72846566E743475702A2ADB95830
+        0B80B6539E5A1EA2E69B75CCE638008211C4B5502BCBCC2A84A3810444AB7F8B
+        6016008D57EBEDE5207656A532BBDD0F42C400E2EAE51696955DC441B41C2C12
+        CC02200FF036F671103B2A3F65E58E2663882B434D2CDBBA09BA02A1B841B3AF
+        50300B801E280DBE7E0EA2AAE213B675EB216388D0AF4DB8129B20D09D80F037
+        14086601C878EEF39F7A04C25EDE0091F14923888308B1858338E0FD42300B40
+        C4BEA6C3A739884AC7C7CCE1F419430C057DCC6A2DE62070D7289805202B5168
+        6E0972104EFB47CCE93AF81888F30D2C2BC706DDBD0908EFBE5CC12C007A8DC5
+        17340EC251F621733AFD303E61003178CECB7236947110757B7204B300A6F07D
+        1A37A31C44B9ED0356E13A640C71E14C3DBE63D34A0CC70D6ADDD98259003416
+        EE1E38087BC91AE6AA6C3686080ED4E123B6147AFB1210F84E2B980540590F7C
+        DC7310B62D6B58D5767227716688B3BF789835AF0421C27103774DBA60164074
+        12C8B51F8258CD5CDB9B60C20062F9C04977B9756329F4F587676DA2E0EBC255
+        0555D5870962C644C10A5C89D28A6DDFD20FCCAC4DD9946C5ABDB67287BA125C
+        CA269E3C0B0ED4B3EE9E1EB0E6ED9DB5C9B3A2FCF757BAAABE83C949914B9EC5
+        D3987DDDD5D5972E0DC19D3BF7E1B5A58B61C1D30B0C73A3AA9F4B53A0651F1F
+        FD31A47424ED7ED5D8A0F711DA7F89B17426A53B253D9E40CBF7CA5A3E97E28C
+        628E6CE85AF58E584F996B81E494247CE4FE0C97AF4408824B63C613CAF8C2E1
+        3FF67D3F8C8D4660DEBC85B060FE1CC3DCA8A4E64DA3F19BC4DAD43A3647F59C
+        AD5EE06445BD542D211A85785DCDDBC6ECC4D87D26A7F5EB7DF899D49A09824B
+        283F11A9FD27E24F96FFFDDF5DFF029B77BA87DD6CA7600000000049454E44AE
+        426082}
+      OnDblClick = BigFlagImgDblClick
+    end
+    object SmallFlagImg: TImage
+      Left = 153
+      Top = 91
+      Width = 26
+      Height = 21
+      Align = alCustom
+      Anchors = [akLeft, akTop, akRight]
+      Picture.Data = {
+        0954506E67496D61676589504E470D0A1A0A0000000D494844520000001A0000
+        00150806000000581CFE1B000000017352474200AECE1CE90000000467414D41
+        0000B18F0BFC6105000000097048597300000EC300000EC301C76FA864000000
+        1974455874536F667477617265007061696E742E6E657420342E302E31364469
+        AFF50000013C4944415478DABDD6CD2B445118C7F13BFF859485A266E12593C5
+        DD8C057147929A589C05CE62A428CD06A551532685CDA428B1F86171173425C9
+        0CB1309BBBD0C8CB628AB250F267387E79FC05F338755E56DFCFF23931CFF39A
+        DCEEFEBD35D697DB8F3177046F2FB6AC8470B57520F5034DD76B9388278E43F7
+        AE34D8085CDBB8B625F4141974F9A175EFC306437F6D42B5BB0924FA4E542069
+        138AAED3F0074B2A90B409552F46911C395781A44DE8A6348C81F4A50A246D42
+        E570082973A502499BD019FA31666F552069133ADD4B627CB6AA02499B50B8ED
+        C32C442A90B40961AB1776F15E059236A1FD420F66720F2A90B409EDAC76627E
+        ED59059236A1E2721CD98DBA0A246D429BD9762C155F552069135A9F6BC5CAEE
+        BB0A246D42F94C0BF2071F2AF3C8B58D6B130A7253CDAA13B670F4C909FB2F7F
+        866F1DB9AC23E5EA71A50000000049454E44AE426082}
+      OnDblClick = BigFlagImgDblClick
+    end
+    object FlagName_L: TLabel
+      Left = 6
+      Top = 37
+      Width = 3
+      Height = 13
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsItalic]
+      ParentFont = False
+    end
     object ChooseScenario_B: TButtonGroup
-      Left = 383
-      Top = 16
+      Left = 467
+      Top = 52
       Width = 139
       Height = 60
       Align = alCustom
@@ -134,16 +234,17 @@ object CountryEditorForm: TCountryEditorForm
       TabOrder = 0
     end
     object UniqueValueListEdit: TValueListEditor
-      Left = 104
-      Top = 16
+      Left = 184
+      Top = 33
       Width = 273
-      Height = 60
+      Height = 79
       Align = alCustom
       Anchors = [akLeft, akTop, akRight]
       Color = clSkyBlue
       KeyOptions = [keyUnique]
       ScrollBars = ssVertical
       Strings.Strings = (
+        'File Name='
         'Country TAG='
         'Capital=')
       TabOrder = 1
@@ -153,24 +254,80 @@ object CountryEditorForm: TCountryEditorForm
       RowHeights = (
         18
         18
+        18
         18)
+    end
+    object CEditorToolBar: TToolBar
+      Left = 1
+      Top = 1
+      Width = 844
+      Height = 22
+      ButtonWidth = 85
+      Images = MainForm.StdIconList
+      Indent = 5
+      List = True
+      ShowCaptions = True
+      AllowTextButtons = True
+      TabOrder = 2
+      object ToolButton4: TToolButton
+        Left = 5
+        Top = 0
+        Width = 9
+        Caption = 'ToolButton4'
+        ImageIndex = 9
+        Style = tbsSeparator
+      end
+      object ToolButton1: TToolButton
+        Left = 14
+        Top = 0
+        Caption = 'ToolButton1'
+        ImageIndex = 6
+      end
+      object ToolButton5: TToolButton
+        Left = 38
+        Top = 0
+        Width = 12
+        Caption = 'ToolButton5'
+        ImageIndex = 9
+        Style = tbsSeparator
+      end
+      object ToolButton2: TToolButton
+        Left = 50
+        Top = 0
+        Caption = 'ToolButton2'
+        ImageIndex = 7
+      end
+      object ToolButton6: TToolButton
+        Left = 74
+        Top = 0
+        Width = 12
+        Caption = 'ToolButton6'
+        ImageIndex = 9
+        Style = tbsSeparator
+      end
+      object ToolButton3: TToolButton
+        Left = 86
+        Top = 0
+        Caption = 'ToolButton3'
+        ImageIndex = 8
+      end
     end
   end
   object Panel: TPanel
     Left = 0
-    Top = 92
+    Top = 137
     Width = 850
-    Height = 589
+    Height = 544
     Align = alClient
     BevelKind = bkTile
     BevelOuter = bvLowered
     TabOrder = 1
     DesignSize = (
       846
-      585)
+      540)
     object ShowCurrentScenario_L: TLabel
-      Left = 7
-      Top = 7
+      Left = 6
+      Top = 6
       Width = 124
       Height = 14
       Align = alCustom
@@ -199,9 +356,9 @@ object CountryEditorForm: TCountryEditorForm
       ParentFont = False
     end
     object LawsListEditor: TValueListEditor
-      Left = 13
+      Left = 6
       Top = 27
-      Width = 370
+      Width = 377
       Height = 306
       Align = alCustom
       Anchors = [akLeft, akTop, akRight]
@@ -234,7 +391,7 @@ object CountryEditorForm: TCountryEditorForm
       TabOrder = 0
       ColWidths = (
         133
-        214)
+        221)
       RowHeights = (
         18
         18
@@ -262,7 +419,7 @@ object CountryEditorForm: TCountryEditorForm
         18)
     end
     object FileListBox1: TFileListBox
-      Left = 472
+      Left = 554
       Top = 545
       Width = 65
       Height = 33
@@ -715,6 +872,7 @@ object CountryEditorForm: TCountryEditorForm
         'Election frequency='
         'Elections allowed=')
       TabOrder = 3
+      OnValidate = PoliticsListEditorValidate
       ColWidths = (
         140
         159)
@@ -778,7 +936,7 @@ object CountryEditorForm: TCountryEditorForm
       OnDblClick = CountryListBoxDblClick
     end
   end
-  object MainMenu1: TMainMenu
+  object MainMenu: TMainMenu
     Left = 352
     Top = 640
     object File1: TMenuItem
@@ -803,7 +961,7 @@ object CountryEditorForm: TCountryEditorForm
       OnExecute = OpenCountryFileExecute
     end
   end
-  object OpenTextFileDialog1: TOpenTextFileDialog
+  object OpenTextFileDialog: TOpenTextFileDialog
     Filter = 'Txt Files|*.txt*'
     Options = [ofReadOnly, ofHideReadOnly, ofEnableSizing]
     Encodings.Strings = (
@@ -817,5 +975,28 @@ object CountryEditorForm: TCountryEditorForm
     Active = True
     AntiAliasText = gpfClearType
     TeePanel = IdeologyChart
+    Left = 672
+    Top = 88
+  end
+  object FlagImgList: TImageList
+    Height = 91
+    Width = 60
+    Left = 504
+    Top = 640
+  end
+  object OpenPictureDialog: TOpenPictureDialog
+    Filter = 
+      'All (*.gif;*.png;*.jpg;*.jpeg;*.bmp;*.jpg;*.jpeg;*.gif;*.png;*.i' +
+      'co;*.emf;*.wmf;*.tif;*.tiff;*.tga)|*.gif;*.png;*.jpg;*.jpeg;*.bm' +
+      'p;*.jpg;*.jpeg;*.gif;*.png;*.ico;*.emf;*.wmf;*.tif;*.tiff;*.tga|' +
+      'GIF Image (*.gif)|*.gif|Portable Network Graphics (*.png)|*.png|' +
+      'JPEG Image File (*.jpg)|*.jpg|JPEG Image File (*.jpeg)|*.jpeg|Bi' +
+      'tmaps (*.bmp)|*.bmp|JPEG Images (*.jpg)|*.jpg|JPEG Images (*.jpe' +
+      'g)|*.jpeg|GIF Images (*.gif)|*.gif|PNG Images (*.png)|*.png|Icon' +
+      's (*.ico)|*.ico|Enhanced Metafiles (*.emf)|*.emf|Metafiles (*.wm' +
+      'f)|*.wmf|TIFF Images (*.tif)|*.tif|TIFF Images (*.tiff)|*.tiff|T' +
+      'GA Images(*.tga)|*.tga'
+    Left = 464
+    Top = 640
   end
 end

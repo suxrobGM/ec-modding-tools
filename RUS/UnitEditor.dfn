@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file original="F:\C++ projects\GuiProjects\HOI_IV_EC_modding_tools\UnitEditor.dfm" source-language="ru-RU" target-language="ru-RU" datatype="delphiform" tool="ETM v10.0" ts="F:\C++ projects\GuiProjects\HOI_IV_EC_modding_tools\UnitEditor.dfm">
+  <file original="F:\C++ projects\GuiProjects_CBuilder\HOI_IV_EC_modding_tools\EC_Modding_Tools\UnitEditor.dfm" source-language="ru-RU" target-language="ru-RU" datatype="delphiform" tool="ETM v10.0" ts="F:\C++ projects\GuiProjects_CBuilder\HOI_IV_EC_modding_tools\EC_Modding_Tools\UnitEditor.dfm">
     <header>
       <prop-group name="ITEHeaderProp">
         <prop prop-type="Version">9.0</prop>
-        <prop prop-type="SelfDateTime">43110.6408564815</prop>
-        <prop prop-type="OrigDateTime">43080.3240740741</prop>
-        <prop prop-type="XlatDateTime">43080.3240740741</prop>
+        <prop prop-type="SelfDateTime">43162.9631018518</prop>
+        <prop prop-type="OrigDateTime">43080.4074074074</prop>
+        <prop prop-type="XlatDateTime">43080.4074074074</prop>
         <prop prop-type="Translated">0</prop>
         <prop prop-type="UnTranslated">34</prop>
       </prop-group>

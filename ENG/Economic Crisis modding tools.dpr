@@ -7,7 +7,7 @@ library Economic Crisis modding tools;
 {ITE} {DFMFileType} {CountryEditor.dfm}
 {ITE} {DFMFileType} {EquipmentEditor.dfm}
 {ITE} {DFMFileType} {MAIN.dfm}
-{ITE} {DFMFileType} {OptionsForm.dfm}
+{ITE} {DFMFileType} {Option.dfm}
 {ITE} {DFMFileType} {UnitEditor.dfm}
 {ITE} {RCFileType} {Win32\Debug\Economic Crisis modding tools_DRC.rc}
 
@@ -16,7 +16,7 @@ library Economic Crisis modding tools;
 {$R 'CountryEditor.dfm' 'CountryEditorForm:TForm'}
 {$R 'EquipmentEditor.dfm' 'EquipmentEditorForm1:TForm'}
 {$R 'MAIN.dfm' 'MainForm:TForm'}
-{$R 'OptionsForm.dfm' 'SettingsForm:TForm'}
+{$R 'Option.dfm' 'OptionsForm:TForm'}
 {$R 'UnitEditor.dfm' 'UnitEditorForm:TForm'}
 {$R 'Win32\Debug\Economic Crisis modding tools_DRC.res' 'Win32\Debug\Economic Crisis modding tools_DRC.rc'}
 

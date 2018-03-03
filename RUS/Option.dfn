@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="F:\C++ projects\GuiProjects_CBuilder\HOI_IV_EC_modding_tools\EC_Modding_Tools\Option.dfm" source-language="ru-RU" target-language="ru-RU" datatype="delphiform" tool="ETM v10.0" ts="F:\C++ projects\GuiProjects_CBuilder\HOI_IV_EC_modding_tools\EC_Modding_Tools\Option.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">43162.9631018518</prop>
+        <prop prop-type="OrigDateTime">43162.9184490741</prop>
+        <prop prop-type="XlatDateTime">43162.9184490741</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">72</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:OptionsForm.Left" resname="O:OptionsForm.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.Top" resname="O:OptionsForm.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.Caption" resname="O:OptionsForm.Caption">
+        <source>'Settings'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.ClientHeight" resname="O:OptionsForm.ClientHeight">
+        <source>201</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.ClientWidth" resname="O:OptionsForm.ClientWidth">
+        <source>457</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.Color" resname="O:OptionsForm.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.Font.Charset" resname="O:OptionsForm.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.Font.Color" resname="O:OptionsForm.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.Font.Height" resname="O:OptionsForm.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.Font.Name" resname="O:OptionsForm.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.Font.Style" resname="O:OptionsForm.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.OldCreateOrder" resname="O:OptionsForm.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.PixelsPerInch" resname="O:OptionsForm.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.TextHeight" resname="O:OptionsForm.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TOptionsForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.Left" resname="O:OptionsForm.O:Panel.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.Top" resname="O:OptionsForm.O:Panel.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.Width" resname="O:OptionsForm.O:Panel.Width">
+        <source>457</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.Height" resname="O:OptionsForm.O:Panel.Height">
+        <source>201</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.Align" resname="O:OptionsForm.O:Panel.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.TabOrder" resname="O:OptionsForm.O:Panel.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.ExplicitLeft" resname="O:OptionsForm.O:Panel.ExplicitLeft">
+        <source>240</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.ExplicitTop" resname="O:OptionsForm.O:Panel.ExplicitTop">
+        <source>112</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.ExplicitWidth" resname="O:OptionsForm.O:Panel.ExplicitWidth">
+        <source>185</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.ExplicitHeight" resname="O:OptionsForm.O:Panel.ExplicitHeight">
+        <source>41</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirMod_L.Left" resname="O:OptionsForm.O:Panel.O:DirMod_L.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirMod_L.Top" resname="O:OptionsForm.O:Panel.O:DirMod_L.Top">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirMod_L.Width" resname="O:OptionsForm.O:Panel.O:DirMod_L.Width">
+        <source>120</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirMod_L.Height" resname="O:OptionsForm.O:Panel.O:DirMod_L.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirMod_L.Caption" resname="O:OptionsForm.O:Panel.O:DirMod_L.Caption">
+        <source>'Directory of the mod:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirMod_L.Font.Charset" resname="O:OptionsForm.O:Panel.O:DirMod_L.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirMod_L.Font.Color" resname="O:OptionsForm.O:Panel.O:DirMod_L.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirMod_L.Font.Height" resname="O:OptionsForm.O:Panel.O:DirMod_L.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirMod_L.Font.Name" resname="O:OptionsForm.O:Panel.O:DirMod_L.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirMod_L.Font.Style" resname="O:OptionsForm.O:Panel.O:DirMod_L.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirMod_L.ParentFont" resname="O:OptionsForm.O:Panel.O:DirMod_L.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChooseLang_L.Left" resname="O:OptionsForm.O:Panel.O:ChooseLang_L.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChooseLang_L.Top" resname="O:OptionsForm.O:Panel.O:ChooseLang_L.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChooseLang_L.Width" resname="O:OptionsForm.O:Panel.O:ChooseLang_L.Width">
+        <source>102</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChooseLang_L.Height" resname="O:OptionsForm.O:Panel.O:ChooseLang_L.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChooseLang_L.Caption" resname="O:OptionsForm.O:Panel.O:ChooseLang_L.Caption">
+        <source>'Choose Language:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChooseLang_L.Font.Charset" resname="O:OptionsForm.O:Panel.O:ChooseLang_L.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChooseLang_L.Font.Color" resname="O:OptionsForm.O:Panel.O:ChooseLang_L.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChooseLang_L.Font.Height" resname="O:OptionsForm.O:Panel.O:ChooseLang_L.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChooseLang_L.Font.Name" resname="O:OptionsForm.O:Panel.O:ChooseLang_L.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChooseLang_L.Font.Style" resname="O:OptionsForm.O:Panel.O:ChooseLang_L.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChooseLang_L.ParentFont" resname="O:OptionsForm.O:Panel.O:ChooseLang_L.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:SetDirEdit.Left" resname="O:OptionsForm.O:Panel.O:SetDirEdit.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:SetDirEdit.Top" resname="O:OptionsForm.O:Panel.O:SetDirEdit.Top">
+        <source>83</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:SetDirEdit.Width" resname="O:OptionsForm.O:Panel.O:SetDirEdit.Width">
+        <source>145</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:SetDirEdit.Height" resname="O:OptionsForm.O:Panel.O:SetDirEdit.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:SetDirEdit.TabOrder" resname="O:OptionsForm.O:Panel.O:SetDirEdit.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:SetDirButton.Left" resname="O:OptionsForm.O:Panel.O:SetDirButton.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:SetDirButton.Top" resname="O:OptionsForm.O:Panel.O:SetDirButton.Top">
+        <source>110</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:SetDirButton.Width" resname="O:OptionsForm.O:Panel.O:SetDirButton.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:SetDirButton.Height" resname="O:OptionsForm.O:Panel.O:SetDirButton.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:SetDirButton.Caption" resname="O:OptionsForm.O:Panel.O:SetDirButton.Caption">
+        <source>'Set Directory'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:SetDirButton.TabOrder" resname="O:OptionsForm.O:Panel.O:SetDirButton.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:SetDirButton.OnClick" resname="O:OptionsForm.O:Panel.O:SetDirButton.OnClick">
+        <source>SetDirButtonClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirectoryListBox1.Left" resname="O:OptionsForm.O:Panel.O:DirectoryListBox1.Left">
+        <source>208</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TDirectoryListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirectoryListBox1.Top" resname="O:OptionsForm.O:Panel.O:DirectoryListBox1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TDirectoryListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirectoryListBox1.Width" resname="O:OptionsForm.O:Panel.O:DirectoryListBox1.Width">
+        <source>243</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TDirectoryListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirectoryListBox1.Height" resname="O:OptionsForm.O:Panel.O:DirectoryListBox1.Height">
+        <source>185</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TDirectoryListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:DirectoryListBox1.TabOrder" resname="O:OptionsForm.O:Panel.O:DirectoryListBox1.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TDirectoryListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Left" resname="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Top" resname="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Top">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Width" resname="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Width">
+        <source>145</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Height" resname="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Style" resname="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Style">
+        <source>csDropDownList</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.TabOrder" resname="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.OnChange" resname="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.OnChange">
+        <source>ChangeLanguage_CBChange</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Items.Strings[0]" resname="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Items.Strings[0]">
+        <source>'English'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Items.Strings[1]" resname="O:OptionsForm.O:Panel.O:ChangeLanguage_CB.Items.Strings[1]">
+        <source>'Russian'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">43162.9631081944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
