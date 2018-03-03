@@ -262,7 +262,7 @@ object CountryEditorForm: TCountryEditorForm
       Top = 1
       Width = 844
       Height = 22
-      ButtonWidth = 85
+      ButtonWidth = 145
       Images = MainForm.StdIconList
       Indent = 5
       List = True
@@ -277,11 +277,10 @@ object CountryEditorForm: TCountryEditorForm
         ImageIndex = 9
         Style = tbsSeparator
       end
-      object ToolButton1: TToolButton
+      object ToolButton2: TToolButton
         Left = 14
         Top = 0
-        Caption = 'ToolButton1'
-        ImageIndex = 6
+        Action = CreateNewCountryFile
       end
       object ToolButton5: TToolButton
         Left = 38
@@ -291,11 +290,10 @@ object CountryEditorForm: TCountryEditorForm
         ImageIndex = 9
         Style = tbsSeparator
       end
-      object ToolButton2: TToolButton
+      object ToolButton1: TToolButton
         Left = 50
         Top = 0
-        Caption = 'ToolButton2'
-        ImageIndex = 7
+        Action = OpenCountryFile
       end
       object ToolButton6: TToolButton
         Left = 74
@@ -951,13 +949,16 @@ object CountryEditorForm: TCountryEditorForm
     end
   end
   object ActionList1: TActionList
+    Images = MainForm.StdIconList
     Left = 392
     Top = 640
     object CreateNewCountryFile: TAction
       Caption = 'Create New Country File'
+      ImageIndex = 6
     end
     object OpenCountryFile: TAction
       Caption = 'Open Country File'
+      ImageIndex = 7
       OnExecute = OpenCountryFileExecute
     end
   end
