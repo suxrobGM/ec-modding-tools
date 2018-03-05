@@ -38,7 +38,7 @@ __published:	// IDE-managed Components
 	TMenuItem *File1;
 	TMenuItem *OpenCountryFile1;
 	TMenuItem *NewCountryFile1;
-	TAction *CreateNewCountryFile;
+	TAction *NewCountryFile;
 	TAction *OpenCountryFile;
 	TValueListEditor *UniqueValueListEdit;
 	TFileListBox *FileListBox1;
@@ -69,6 +69,7 @@ __published:	// IDE-managed Components
 	TImage *MediumFlagImg;
 	TImage *SmallFlagImg;
     TLabel *FlagName_L;
+	TAction *SaveCountryFile;
 	void __fastcall OpenCountryFileExecute(TObject *Sender);
 	void __fastcall GetTags();
 	void __fastcall GetRegions();
@@ -98,10 +99,15 @@ __published:	// IDE-managed Components
 	void __fastcall ClearGraphButtonClick(TObject *Sender);
 	void __fastcall CountryListBoxDblClick(TObject *Sender);
 	void __fastcall ReadFileData(UnicodeString CountryFileName);
+	//void __fastcall WriteFileData(UnicodeString CountryFileName);
+    void __fastcall InsertFileData(UnicodeString CountryFileName);
 	void __fastcall BigFlagImgDblClick(TObject *Sender);
 	void __fastcall LoadFlag(AnsiString TagName, AnsiString RulingParty);
 	void __fastcall PoliticsListEditorValidate(TObject *Sender, int ACol, int ARow,
           const UnicodeString KeyName, const UnicodeString KeyValue);
+	void __fastcall NewCountryFileExecute(TObject *Sender);
+    void __fastcall ClearAllData();
+	void __fastcall SaveCountryFileExecute(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TCountryEditorForm(TComponent* Owner);

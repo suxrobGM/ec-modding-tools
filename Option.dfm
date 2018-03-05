@@ -20,10 +20,6 @@ object OptionsForm: TOptionsForm
     Height = 201
     Align = alClient
     TabOrder = 0
-    ExplicitLeft = 240
-    ExplicitTop = 112
-    ExplicitWidth = 185
-    ExplicitHeight = 41
     object DirMod_L: TLabel
       Left = 8
       Top = 68

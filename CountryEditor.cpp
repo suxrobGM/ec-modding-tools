@@ -5,7 +5,9 @@
 
 #include "Main.h"
 #include "CountryEditor.h"
-#include "OptionsForm.h"
+#include "Option.h"
+
+#include "fstream"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -85,6 +87,31 @@ __fastcall TCountryEditorForm::TCountryEditorForm(TComponent* Owner)
    if (pSaveHBITMAPtoFileAsGrayScale256BMP == NULL)
    {Application->MessageBox( L"Error: GetProcAddress of SaveHBITMAPtoFileAsGrayScale256BMP failed", L"Error", MB_OK );}
 
+}
+
+//---------------------------------------------------------------------------
+//Функция для очистки поля данных
+inline void __fastcall TCountryEditorForm::ClearAllData()
+{
+	for(int i=1; i<=UniqueValueListEdit->RowCount-1; i++)
+	{
+		UniqueValueListEdit->Cells[1][i] = "";
+	}
+	for(int i=1; i<=LawsListEditor->RowCount-1; i++)
+	{
+		LawsListEditor->Cells[1][i] = "";
+	}
+	for(int i=1; i<=PoliticsListEditor->RowCount-1; i++)
+	{
+		PoliticsListEditor->Cells[1][i] = "";
+	}
+
+	UnicodeString FileName = ProgrammPath+"Data\\large_flag_frame.png";
+	ifstream LargeFlagFrame(FileName.w_str());
+	if(BigFlagImg!=NULL && LargeFlagFrame)
+	{
+		BigFlagImg->Picture->LoadFromFile(ProgrammPath+"Data\\large_flag_frame.png");
+	}
 }
 
 //---------------------------------------------------------------------------
@@ -634,6 +661,54 @@ void __fastcall TCountryEditorForm::ReadFileData(UnicodeString CountryFileName)
 }
 
 //---------------------------------------------------------------------------
+//Функция для извлечение "значение" из строки типа "Ключ=Значение"
+inline UnicodeString GetValueString(UnicodeString KeyValueString)
+{
+	if(KeyValueString.Pos("="))
+	{
+		KeyValueString = KeyValueString.SubString(KeyValueString.Pos("=")+1, KeyValueString.Length()-KeyValueString.Pos("="));
+	}
+	return KeyValueString;
+}
+
+//---------------------------------------------------------------------------
+//Функция для извлечение "ключ" из строки типа "Ключ=Значение"
+inline UnicodeString GetKeyString(UnicodeString KeyValueString)
+{
+	if(KeyValueString.Pos("="))
+	{
+		KeyValueString = KeyValueString.SubString(1, KeyValueString.Pos("=")-1);
+	}
+	return KeyValueString;
+}
+
+//---------------------------------------------------------------------------
+//Функция для замены значение в сущесвующего файлы
+void __fastcall TCountryEditorForm::InsertFileData(UnicodeString CountryFileName)
+{
+	TStringList *Buffer = new TStringList();
+	Buffer->LoadFromFile(ModDirectory+"\\history\\countries\\"+CountryFileName);
+    UnicodeString tString; //временный переменный
+	UnicodeString ValueStr;
+	UnicodeString KeyStr;
+
+	for(int i=0; i<Buffer->Count; i++)
+	{
+		if(Buffer->Strings[i].Pos("capital"))
+		{
+			tString = Buffer->Strings[i];
+			tString = DeleteSpace(tString);
+			KeyStr = GetKeyString(tString);
+			ValueStr = GetValueString(UniqueValueListEdit->Cells[1][3]);
+			Buffer->Strings[i] = KeyStr+"="+ValueStr;
+        }
+	}
+
+	ShowMessage(Buffer->GetText());
+	delete Buffer;
+}
+
+//---------------------------------------------------------------------------
 void __fastcall TCountryEditorForm::FormActivate(TObject *Sender)
 {
 	GetTags();
@@ -660,7 +735,7 @@ void __fastcall TCountryEditorForm::FormActivate(TObject *Sender)
 	GetLaborRightsLaws();
 	GetIdeologies();
 
-	FileListBox1->Directory = ModDirectory + "\\history\\countries\\";;
+	FileListBox1->Directory = ModDirectory + "\\history\\countries\\";
 	CountryListBox->Items->AddStrings(FileListBox1->Items);
 }
 
@@ -695,7 +770,7 @@ void __fastcall TCountryEditorForm::GetTags()
 		StringCount--;
 	}
 	TagList->Sort();
-	UniqueValueListEdit->ItemProps[0]->PickList->AddStrings(TagList);
+	UniqueValueListEdit->ItemProps[1]->PickList->AddStrings(TagList);
 
 	delete ListTag; //Больше не нужно, освобождаем память
 }
@@ -742,7 +817,8 @@ void __fastcall TCountryEditorForm::GetRegions()
 		RegionList->AddPair(Key,Value); //Добавляем пара "ключ-значение"
 		RegionList->Sort();
    }
-   UniqueValueListEdit->ItemProps[1]->PickList->AddStrings(RegionList);
+   UniqueValueListEdit->ItemProps[2]->PickList->AddStrings(RegionList);
+   UniqueValueListEdit->ItemProps[2]->ReadOnly = true;
 
    delete ListReg;
 }
@@ -1139,5 +1215,38 @@ void __fastcall TCountryEditorForm::PoliticsListEditorValidate(TObject *Sender, 
 	}
 }
 //---------------------------------------------------------------------------
+void __fastcall TCountryEditorForm::NewCountryFileExecute(TObject *Sender)
+{
+	ClearAllData();
+	UniqueValueListEdit->Cells[1][1] = "TAG - CountryName.txt";
+	//ShowMessage(UniqueValueListEdit->RowCount);
+}
 
+//---------------------------------------------------------------------------
+
+void __fastcall TCountryEditorForm::SaveCountryFileExecute(TObject *Sender)
+{
+	UnicodeString FileName = UniqueValueListEdit->Cells[1][1];
+	bool FileName_In_ListBox = false;
+
+	for(int i=0; i<CountryListBox->Count; i++)
+	{
+		if(FileName==CountryListBox->Items->Strings[i])
+		{
+			FileName_In_ListBox = true;
+			break;
+        }
+	}
+
+	if(FileName!="" && FileName_In_ListBox)
+	{
+		InsertFileData(FileName);
+		//ShowMessage(GetKeyString(LawsListEditor->Cells[1][1]));
+	}
+	else{
+		ShowMessage("ERROR: can not save, because "+FileName+" file do not excited in the List Box");
+    }
+
+}
+//---------------------------------------------------------------------------
 

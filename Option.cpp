@@ -52,6 +52,7 @@ __fastcall TOptionsForm::TOptionsForm(TComponent* Owner)
 			if(Language=="Russian")
 			{
 				ChangeLanguage_CB->ItemIndex = 0;
+                //Application->
 			}
 			else if(Language=="English")
 			{

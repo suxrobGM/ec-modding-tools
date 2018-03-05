@@ -102,8 +102,8 @@ object CountryEditorForm: TCountryEditorForm
       OnDblClick = BigFlagImgDblClick
     end
     object ScenarioLabel: TLabel
-      Left = 467
-      Top = 37
+      Left = 516
+      Top = 38
       Width = 96
       Height = 13
       Align = alCustom
@@ -216,8 +216,8 @@ object CountryEditorForm: TCountryEditorForm
       ParentFont = False
     end
     object ChooseScenario_B: TButtonGroup
-      Left = 467
-      Top = 52
+      Left = 512
+      Top = 53
       Width = 139
       Height = 60
       Align = alCustom
@@ -236,7 +236,7 @@ object CountryEditorForm: TCountryEditorForm
     object UniqueValueListEdit: TValueListEditor
       Left = 184
       Top = 33
-      Width = 273
+      Width = 313
       Height = 79
       Align = alCustom
       Anchors = [akLeft, akTop, akRight]
@@ -249,8 +249,8 @@ object CountryEditorForm: TCountryEditorForm
         'Capital=')
       TabOrder = 1
       ColWidths = (
-        150
-        117)
+        95
+        212)
       RowHeights = (
         18
         18
@@ -262,7 +262,7 @@ object CountryEditorForm: TCountryEditorForm
       Top = 1
       Width = 844
       Height = 22
-      ButtonWidth = 145
+      ButtonWidth = 114
       Images = MainForm.StdIconList
       Indent = 5
       List = True
@@ -280,7 +280,7 @@ object CountryEditorForm: TCountryEditorForm
       object ToolButton2: TToolButton
         Left = 14
         Top = 0
-        Action = CreateNewCountryFile
+        Action = NewCountryFile
       end
       object ToolButton5: TToolButton
         Left = 38
@@ -306,8 +306,7 @@ object CountryEditorForm: TCountryEditorForm
       object ToolButton3: TToolButton
         Left = 86
         Top = 0
-        Caption = 'ToolButton3'
-        ImageIndex = 8
+        Action = SaveCountryFile
       end
     end
   end
@@ -943,8 +942,7 @@ object CountryEditorForm: TCountryEditorForm
         Action = OpenCountryFile
       end
       object NewCountryFile1: TMenuItem
-        Action = CreateNewCountryFile
-        Caption = 'New Country File'
+        Action = NewCountryFile
       end
     end
   end
@@ -952,14 +950,20 @@ object CountryEditorForm: TCountryEditorForm
     Images = MainForm.StdIconList
     Left = 392
     Top = 640
-    object CreateNewCountryFile: TAction
-      Caption = 'Create New Country File'
+    object NewCountryFile: TAction
+      Caption = 'New Country File'
       ImageIndex = 6
+      OnExecute = NewCountryFileExecute
     end
     object OpenCountryFile: TAction
       Caption = 'Open Country File'
       ImageIndex = 7
       OnExecute = OpenCountryFileExecute
+    end
+    object SaveCountryFile: TAction
+      Caption = 'Save Country File'
+      ImageIndex = 8
+      OnExecute = SaveCountryFileExecute
     end
   end
   object OpenTextFileDialog: TOpenTextFileDialog
